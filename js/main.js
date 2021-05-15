@@ -87,6 +87,12 @@ const app = new Vue({
         active: false,
       },
       {
+        name: "Filippo",
+        services: 0,
+        total: 0,
+        active: false,
+      },
+      {
         name: "Vincenzo",
         services: 0,
         total: 0,
@@ -127,9 +133,6 @@ const app = new Vue({
       }
       this.manciaPerServizio = manciaPerServizio;
       this.rimasugli = this.total - manciaPerServizio * this.totaleServizi;
-      console.log(this.manciaPerServizio);
-      console.log(partial);
-      console.log(this.rimasugli);
 
       //diviamo le mance!
       for (item in this.personale) {
@@ -157,7 +160,11 @@ const app = new Vue({
           }
         }
       }
-      assert(this.totaleErogato <= this.total);
+
+      if (this.totaleErogato > this.total) {
+        return;
+      }
+
       this.calculated = true;
       this.rimasugli = Number.parseFloat(this.rimasugli).toFixed(2);
     },
