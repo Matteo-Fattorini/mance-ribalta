@@ -105,6 +105,18 @@ const app = new Vue({
         active: false,
       },
       {
+        name: "Igor",
+        services: 0,
+        total: 0,
+        active: false,
+      },
+      {
+        name: "Cosimo",
+        services: 0,
+        total: 0,
+        active: false,
+      },
+      {
         name: "Temp1",
         services: 0,
         total: 0,
