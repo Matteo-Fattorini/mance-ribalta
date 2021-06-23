@@ -1,7 +1,8 @@
 const app = new Vue({
   el: "#container",
   data: {
-    personale: [{
+    personale: [
+      {
         name: "Matteo",
         services: 0,
         total: 0,
@@ -98,12 +99,6 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "Cosimo",
-        services: 0,
-        total: 0,
-        active: false,
-      },
-      {
         name: "Ilaria",
         services: 0,
         total: 0,
@@ -172,7 +167,7 @@ const app = new Vue({
       //diviamo le mance!
       for (item in this.personale) {
         this.personale[item].total =
-        this.personale[item].services * manciaPerServizio;
+          this.personale[item].services * manciaPerServizio;
         this.totaleErogato += this.personale[item].services * manciaPerServizio;
       }
 
