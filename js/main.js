@@ -99,25 +99,19 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "Ilaria",
-        services: 0,
-        total: 0,
-        active: false,
-      },
-      {
         name: "Sara",
         services: 0,
         total: 0,
         active: false,
       },
       {
-        name: "Jacopo",
+        name: "Alex",
         services: 0,
         total: 0,
         active: false,
       },
       {
-        name: "Temp1",
+        name: "Temp2",
         services: 0,
         total: 0,
         active: false,
