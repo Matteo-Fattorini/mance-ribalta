@@ -175,7 +175,7 @@ const app = new Vue({
         }
         while (this.rimasugli > personeCheDividonoRimasugli / 2) {
           for (item in this.personale) {
-            if (this.personale[item].services > 2) {
+            if (this.personale[item].services > 1) {
               this.totaleErogato += 0.5;
               this.personale[item].total += 0.5;
               this.rimasugli -= 0.5;
