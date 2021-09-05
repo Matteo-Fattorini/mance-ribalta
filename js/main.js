@@ -93,7 +93,7 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "Martina",
+        name: "Alessia",
         services: 0,
         total: 0,
         active: false,
@@ -169,7 +169,7 @@ const app = new Vue({
       if (this.rimasugli > 0) {
         let personeCheDividonoRimasugli = 0;
         for (item in this.personale) {
-          if (this.personale[item].services > 2) {
+          if (this.personale[item].services > 1) {
             personeCheDividonoRimasugli++;
           }
         }
