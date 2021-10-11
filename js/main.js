@@ -111,7 +111,7 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "Temp2",
+        name: "Temp1",
         services: 0,
         total: 0,
         active: false,
