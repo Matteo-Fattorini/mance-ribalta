@@ -63,7 +63,7 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "MatteoC",
+        name: "Niccolo",
         services: 0,
         total: 0,
         active: false,
@@ -105,7 +105,7 @@ const app = new Vue({
         active: false,
       },
       {
-        name: "Camelia",
+        name: "Camella",
         services: 0,
         total: 0,
         active: false,
